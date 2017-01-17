@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="js/jquery-3.1.1.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <title>Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Transportation Survey</h1>
+        <form>
+          <h3>1. Which of the following forms of transportation have you used in the past year?</h3>
+          <label for="question1">Train</label>
+          <input type="checkbox"  name="work" value="Train">
+          <label for="question1">Bus</label>
+          <input type="checkbox"  name="work" value="Bus">
+          <label for="question1">Ferry</label>
+          <input type="checkbox"  name="work" value="Ferry">
+          <label for="question1">Car</label>
+          <input type="checkbox"  name="work" value="Car">
+          <label for="question1">Bike</label>
+          <input type="checkbox"  name="work" value="Bike"><br>
+
+          <h3>2. Which methods of transportation have you used to travel to non-work related functions?</h3>
+          <label for="question1">Train</label>
+          <input type="checkbox"  name="fun" value="Train">
+          <label for="question1">Bus</label>
+          <input type="checkbox"  name="fun" value="Bus">
+          <label for="question1">Ferry</label>
+          <input type="checkbox"  name="fun" value="Ferry">
+          <label for="question1">Car</label>
+          <input type="checkbox"  name="fun" value="Car">
+          <label for="question1">Bike</label>
+          <input type="checkbox"  name="fun" value="Bike"><br>
+
+          <button type="submit" name="button">Go!</button>
+        </form>
+
+        <span id="result">
+          <p>You use the following methods of transportation to travel to work or school:</p>
+        </span>
+        <span id="funResult">
+          <p>You use the following methods of transportation to travel to other activities and events:</p>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
